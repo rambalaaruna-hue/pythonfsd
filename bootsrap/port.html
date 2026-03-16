@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<title>Movie Songs Portfolio</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+<style>
+  body {
+    background: #000;
+    color: #fff;
+  }
+  .navbar-brand {
+    font-weight: 700;
+    color: #e50914 !important;
+  }
+  .hero {
+    height: 50vh;
+    background: url('https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&w=1350&q=80') center/cover no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .card {
+    background: #111;
+    border: none;
+    color: #fff;
+  }
+  .badge {
+    margin-right: 6px;
+    margin-bottom: 6px;
+  }
+</style>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-black">
+  <div class="container">
+    <a class="navbar-brand" href="#">SONGFLIX</a>
+    <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="menu">
+      <ul class="navbar-nav">
+        <li class="nav-item"><a class="nav-link" href="#genres">Genres</a></li>
+        <li class="nav-item"><a class="nav-link" href="#artists">Artists</a></li>
+        <li class="nav-item"><a class="nav-link" href="#songs">Songs</a></li>
+        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<section class="hero text-white">
+  <div>
+    <h1 class="display-4 fw-bold">Unlimited Movie Songs</h1>
+    <p>Explore songs across all genres and languages</p>
+  </div>
+</section>
+
+<div class="container mt-4" id="genres">
+  <h3>Genres</h3>
+  <span class="badge bg-danger">Romantic</span>
+  <span class="badge bg-primary">Folk</span>
+  <span class="badge bg-success">Private Songs</span>
+  <span class="badge bg-warning text-dark">Classical</span>
+  <span class="badge bg-info text-dark">Dance</span>
+</div>
+
+<div class="container mt-4" id="artists">
+  <h3>Artists</h3>
+  <div class="row g-3">
+    <div class="col-md-3">
+      <div class="card p-3 text-center">Arijit Singh</div>
+    </div>
+    <div class="col-md-3">
+      <div class="card p-3 text-center">Shreya Ghoshal</div>
+    </div>
+    <div class="col-md-3">
+      <div class="card p-3 text-center">Sid Sriram</div>
+    </div>
+    <div class="col-md-3">
+      <div class="card p-3 text-center">SP Balasubrahmanyam</div>
+    </div>
+  </div>
+</div>
+
+<div class="container mt-4" id="songs">
+  <h3>Popular Songs</h3>
+  <div class="row g-3">
+    <div class="col-md-3"><div class="card p-3 text-center">Tum Hi Ho</div></div>
+    <div class="col-md-3"><div class="card p-3 text-center">Kesariya</div></div>
+    <div class="col-md-3"><div class="card p-3 text-center">Butta Bomma</div></div>
+    <div class="col-md-3"><div class="card p-3 text-center">Why This Kolaveri</div></div>
+  </div>
+</div>
+
+<div class="container mt-4 mb-5" id="about">
+  <h3>About</h3>
+  <p>This portfolio showcases movie songs, artists, and genres across languages with a Netflix-inspired design.</p>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
