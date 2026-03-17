@@ -1,0 +1,13 @@
+div{
+    height:300px;
+    width:500px;
+    background-image: url("./img7.jpg");
+    background-size:cover;
+    right:0px;
+    top:20px;
+        position:fixed;
+    z-index:10;
+    top:50px;
+    justify-content: center;
+    text-align: center;
+}
